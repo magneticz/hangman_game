@@ -9,7 +9,7 @@ defmodule Hangman.Application do
     ]
 
     options = [
-      name: Hangmans.Supervisor,
+      name: Hangman.Supervisor,
       strategy: :simple_one_for_one
     ]
 
